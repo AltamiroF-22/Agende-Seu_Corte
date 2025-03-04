@@ -147,7 +147,7 @@ onMounted (()=> {
     
 
         <!-- Exibição dos horários -->
-        <div v-if="selectedDate" class="grid grid-cols-4 gap-2">
+        <div v-if="selectedDate" class="grid grid-cols-3 md:grid-cols-4 gap-2">
           <button
             v-for="time in timeSlots"
             :key="time"
